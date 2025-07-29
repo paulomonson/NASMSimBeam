@@ -3,20 +3,35 @@
 Este projeto tem como objetivo modelar, simular e analisar a propagação de feixes ópticos, especialmente feixes de base Gaussianas, em sistemas de comunicação por espaço livre (Free Space Optics - FSO) Homogêneos. A simulação considera parâmetros iniciais como cintura inicial e distância de propagação, e demonstra a variação da difração, da intensidade, da fase e a variação provocada por fendas no trajeto do feixe.
 
 ## 📁 Estrutura do Projeto
+
 ├── DFT-propag/
+
 │ ├── feixe_dft_fase_HG.py
+
 │ ├── feixe_dft_fase.py
+
 │ ├── feixe_dft_intensidade_HG.py
+
 │ └── feixe_dft_intensidade.py
+
 ├── DFT-valid_fendas/
+
 │ ├── fendacir.py
+
 │ ├── fendaret.py
+
 │ └── fendartri.py
+
 ├── DFT-valid_graficos_wz/
+
 │ └── feixigaussiano.py
+
 ├── graficos.py
+
 ├── main.py
+
 ├── taxaerro.py
+
 └── README.md
 
 
